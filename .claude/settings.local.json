@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($machinePath = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\); $userPath = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); $env:PATH = \"$machinePath;$userPath\"; Set-Location \"d:\\\\Code\\\\portfolio_website\\\\my-portfolio\"; npm run build 2>&1)",
+      "PowerShell($machinePath = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\); $userPath = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); $env:PATH = \"$machinePath;$userPath\"; Set-Location \"d:\\\\Code\\\\portfolio_website\\\\my-portfolio\"; npm run dev 2>&1)"
+    ]
+  }
+}
