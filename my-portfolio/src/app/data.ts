@@ -154,7 +154,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
       url: "https://github.com/Syed-Yousha/expression_and_gesture_pred",
     },
     {
-      name: "expression_and_gestures_pred_updated",
+      name: "expression_pred_updated",
       desc: "Improved expression / gesture recognition model",
       lang: "Python",
       langColor: "#3572A5",
