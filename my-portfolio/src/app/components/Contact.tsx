@@ -1,4 +1,5 @@
 import { PORTFOLIO_DATA } from "../data";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   const D = PORTFOLIO_DATA;
@@ -81,6 +82,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        <ContactForm />
       </div>
     </section>
   );

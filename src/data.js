@@ -73,7 +73,7 @@ window.PORTFOLIO_DATA = {
   ],
   repos: [
     { name: "PRISM", desc: "Automated educational video generation", lang: "Python", langColor: "#3572A5" },
-    { name: "Portfolio-website", desc: "HTML, CSS, JS portfolio page", lang: "HTML", langColor: "#e34c26" },
+    { name: "portfolio_website", desc: "HTML, CSS, JS portfolio page", lang: "HTML", langColor: "#e34c26" },
     { name: "scouts", desc: "React website of Al-Mustafa Scouts", lang: "CSS", langColor: "#563d7c" },
     { name: "Crud_App", desc: "CRUD application with Django and Python", lang: "Python", langColor: "#3572A5" },
     { name: "PF_C_Tasks", desc: "FAST University programming fundamentals in C", lang: "C", langColor: "#555555" },

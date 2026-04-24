@@ -830,5 +830,78 @@ section.sec { padding: 120px 0; position: relative; }
 }
 .font-opt.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 
+/* ============ CONTACT FORM ============ */
+.contact-form-block {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid var(--line);
+}
+.contact-form-block h3 {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+}
+.contact-form-block h3 .ital { font-style: italic; color: var(--ink-2); }
+.contact-form-block .form-desc {
+  color: var(--ink-3);
+  font-size: 14px;
+  margin: 0 0 32px;
+  max-width: 520px;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  max-width: 760px;
+}
+@media (max-width: 700px) {
+  .contact-form { grid-template-columns: 1fr; gap: 20px; }
+}
+.contact-form .field { display: flex; flex-direction: column; gap: 8px; }
+.contact-form .field.full { grid-column: 1 / -1; }
+.contact-form label {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line-strong);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 15px;
+  cursor: none;
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+}
+.contact-form input:focus,
+.contact-form textarea:focus { border-bottom-color: var(--ink); }
+.contact-form textarea { min-height: 120px; line-height: 1.55; }
+.contact-form input:disabled,
+.contact-form textarea:disabled,
+.contact-form button:disabled { opacity: 0.55; }
+.contact-form .submit-row {
+  grid-column: 1 / -1;
+  display: flex; gap: 18px; align-items: center; flex-wrap: wrap;
+  margin-top: 12px;
+}
+.contact-form .form-status {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+.contact-form .form-status.ok { color: #22c55e; }
+.contact-form .form-status.err { color: #ef4444; }
+
 /* ========== UTILITIES ========== */
 .mono { font-family: var(--f-mono); }

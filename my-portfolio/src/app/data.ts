@@ -17,6 +17,7 @@ export type Repo = {
   desc: string;
   lang: string;
   langColor: string;
+  url: string;
 };
 
 export type Experience = {
@@ -96,7 +97,7 @@ export const PORTFOLIO_DATA: PortfolioData = {
         "Tuned the inference pipeline for sub-second latency on modest hardware, making it usable in the field rather than only in a notebook.",
       ],
       stack: ["TensorFlow", "Keras", "FastAPI", "React", "OpenCV"],
-      repo: "https://github.com/Syed-Yousha/Potato-Leaf-Classifier",
+      repo: "https://github.com/Syed-Yousha/Potato-Disease-Classification",
     },
     {
       id: "inam",
@@ -113,19 +114,101 @@ export const PORTFOLIO_DATA: PortfolioData = {
         "Transitioned static prototypes into a backend-integrated production app that the showroom uses daily.",
       ],
       stack: ["Flutter", "Dart", "Windows Desktop"],
-      repo: "https://github.com/Syed-Yousha/Inam-Motors",
+      repo: "https://github.com/Syed-Yousha/Car_Showroom_management",
     },
   ],
   repos: [
-    { name: "PRISM", desc: "Automated educational video generation", lang: "Python", langColor: "#3572A5" },
-    { name: "Portfolio-website", desc: "HTML, CSS, JS portfolio page", lang: "HTML", langColor: "#e34c26" },
-    { name: "scouts", desc: "React website of Al-Mustafa Scouts", lang: "CSS", langColor: "#563d7c" },
-    { name: "Crud_App", desc: "CRUD application with Django and Python", lang: "Python", langColor: "#3572A5" },
-    { name: "PF_C_Tasks", desc: "FAST University programming fundamentals in C", lang: "C", langColor: "#555555" },
-    { name: "CPP_Lab-1_To_Lab-5", desc: "FAST OOP C++ lab tasks", lang: "C++", langColor: "#f34b7d" },
-    { name: "Python", desc: "Basic Python code and experiments", lang: "Python", langColor: "#3572A5" },
-    { name: "Potato-Leaf-Classifier", desc: "CNN for crop disease detection", lang: "Python", langColor: "#3572A5" },
-    { name: "Inam-Motors", desc: "Flutter desktop inventory app for auto showroom", lang: "Dart", langColor: "#00B4AB" },
+    {
+      name: "PRISM",
+      desc: "Automated educational video generation (FYP)",
+      lang: "Python",
+      langColor: "#3572A5",
+      url: "https://github.com/Syed-Yousha/PRISM",
+    },
+    {
+      name: "portfolio_website",
+      desc: "This portfolio — Next.js + TypeScript",
+      lang: "TypeScript",
+      langColor: "#3178c6",
+      url: "https://github.com/Syed-Yousha/portfolio_website",
+    },
+    {
+      name: "Potato-Disease-Classification",
+      desc: "CNN for potato leaf disease detection",
+      lang: "Python",
+      langColor: "#3572A5",
+      url: "https://github.com/Syed-Yousha/Potato-Disease-Classification",
+    },
+    {
+      name: "Car_Showroom_management",
+      desc: "Inam Motors — Flutter desktop inventory",
+      lang: "Dart",
+      langColor: "#00B4AB",
+      url: "https://github.com/Syed-Yousha/Car_Showroom_management",
+    },
+    {
+      name: "expression_and_gesture_pred",
+      desc: "Facial expression and hand-gesture prediction",
+      lang: "Python",
+      langColor: "#3572A5",
+      url: "https://github.com/Syed-Yousha/expression_and_gesture_pred",
+    },
+    {
+      name: "expression_and_gestures_pred_updated",
+      desc: "Improved expression / gesture recognition model",
+      lang: "Python",
+      langColor: "#3572A5",
+      url: "https://github.com/Syed-Yousha/expression_and_gestures_pred_updated",
+    },
+    {
+      name: "Machine_Learning",
+      desc: "Machine learning playground and experiments",
+      lang: "Jupyter Notebook",
+      langColor: "#DA5B0B",
+      url: "https://github.com/Syed-Yousha/Machine_Learning",
+    },
+    {
+      name: "Leet_Code_Problems",
+      desc: "LeetCode practice solutions",
+      lang: "C++",
+      langColor: "#f34b7d",
+      url: "https://github.com/Syed-Yousha/Leet_Code_Problems",
+    },
+    {
+      name: "Manim_dataset",
+      desc: "Manim animation dataset for PRISM",
+      lang: "Python",
+      langColor: "#3572A5",
+      url: "https://github.com/Syed-Yousha/Manim_dataset",
+    },
+    {
+      name: "fastconnect_app",
+      desc: "FAST University community app (collaborator)",
+      lang: "Dart",
+      langColor: "#00B4AB",
+      url: "https://github.com/MaazSiddiquiCS/fastconnect_app",
+    },
+    {
+      name: "stealth-game",
+      desc: "Top-down stealth game",
+      lang: "C#",
+      langColor: "#178600",
+      url: "https://github.com/Syed-Yousha/stealth-game",
+    },
+    {
+      name: "DataVisualization",
+      desc: "Data visualization playground",
+      lang: "Jupyter Notebook",
+      langColor: "#DA5B0B",
+      url: "https://github.com/Syed-Yousha/DataVisualization",
+    },
+    {
+      name: "Rental_car_management_system",
+      desc: "Car rental management system",
+      lang: "C++",
+      langColor: "#f34b7d",
+      url: "https://github.com/Syed-Yousha/Rental_car_management_system",
+    },
   ],
   experience: [
     {

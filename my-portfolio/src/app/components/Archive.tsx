@@ -18,8 +18,8 @@ export default function Archive() {
         <div className="repo-grid">
           {D.repos.map((r) => (
             <a
-              key={r.name}
-              href={`${D.github}/${r.name}`}
+              key={r.url}
+              href={r.url}
               target="_blank"
               rel="noopener"
               className="repo"
